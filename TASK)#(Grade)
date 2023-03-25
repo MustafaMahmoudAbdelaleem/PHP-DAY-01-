@@ -1,0 +1,30 @@
+<?php
+$a= age("10");
+
+if ($a < "5") {
+  echo "Stay at home";
+} elseif($a=5) {
+    echo"Go to kindergarten";
+  }elseif($a>=5 and $a<=12){
+     echo"$Grade";
+     switch ($Grade) {
+        case 5:
+         echo"Grade 001";
+         break;
+         
+        case 6:
+            echo"Grade 002";
+          break;
+        case 7:
+            echo"Grade 003";
+          break;
+          case 8:
+            echo "Grade 004";
+          case 9:
+                echo"Grade 005";
+                default:
+               echo"You are not targetd by our service, thank you";
+      }
+  }
+ 
+?>
