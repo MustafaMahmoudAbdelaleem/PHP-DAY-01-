@@ -1,0 +1,5 @@
+<?php
+    phpinfo();
+    echo(phpinfo);
+?>
+<h1>Hello php info </h1>
