@@ -1,0 +1,4 @@
+<?php
+define("Mywebsite", "MMA.com");
+echo Mywebsite ;
+?>
